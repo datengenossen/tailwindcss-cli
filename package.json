@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles.css",
+    "watch": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles.css --watch",
+    "prod": "npx tailwindcss -i ./src/tailwind.css -o ./public/styles.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.1"
+  }
+}
